@@ -33,7 +33,7 @@ return {
 
 
 	['testburger'] = {
-		label = 'Test Burger',
+		label = 'Test f Burger',
 		weight = 220,
 		degrade = 60,
 		client = {
