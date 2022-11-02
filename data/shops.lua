@@ -88,8 +88,15 @@ return {
 			id = 110, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'ammo-9', price = 5, },
+			{ name = 'ammo-22', price = 5, },
+			{ name = 'ammo-38', price = 5, },
+			{ name = 'ammo-45', price = 5, },
+			{ name = 'ammo-shotgun', price = 5, },
 			{ name = 'WEAPON_KNIFE', price = 200 },
 			{ name = 'WEAPON_BAT', price = 100 },
+			{ name = 'WEAPON_GOLFCLUB', price = 100 },
+			{ name = 'WEAPON_HAMMER', price = 100 },
+			{ name = 'WEAPON_WRENCH', price = 100 },
 			{ name = 'WEAPON_PISTOL', price = 1000, metadata = { registered = true }, license = 'weapon' }
 		}, locations = {
 			vec3(-662.180, -934.961, 21.829),
