@@ -1,4 +1,37 @@
 return {
+
+	--CARDS Identification
+
+	['driver_license'] = {
+		label = 'drivers license',
+		weight = 0,
+		stack = false,
+		close = true,
+		consume = 0,
+		description = "Permit to show you can drive a vehicle",
+		server = {
+			export = 'qb-idcard.driverlicense',
+		},
+	},
+
+	['id_card'] = {
+		label = 'ID Card',
+		weight = 0,
+		stack = false,
+		consume = 0,
+		close = true,
+		description = "A card containing all your information to identify yourself",
+		server = {
+			export = 'qb-idcard.idcard',
+		},
+	},
+
+
+
+
+	---OTHER SHIT NOT ORGANISED
+
+
 	['testburger'] = {
 		label = 'Test Burger',
 		weight = 220,
@@ -501,14 +534,6 @@ return {
 		description = "To get happy real quick"
 	},
 
-	['driver_license'] = {
-		label = 'drivers license',
-		weight = 0,
-		stack = false,
-		close = false,
-		description = "Permit to show you can drive a vehicle"
-	},
-
 	['firstaid'] = {
 		label = 'first aid',
 		weight = 2500,
@@ -859,14 +884,6 @@ return {
 		stack = true,
 		close = false,
 		description = "Very useful to screw... screws..."
-	},
-
-	['id_card'] = {
-		label = 'id card',
-		weight = 0,
-		stack = false,
-		close = false,
-		description = "A card containing all your information to identify yourself"
 	},
 
 	['coffee'] = {
