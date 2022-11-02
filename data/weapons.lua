@@ -1032,32 +1032,32 @@ return {
 
 	Ammo = {
 		['ammo-22'] = {
-			label = 'Box of .22 Long Rifle',
+			label = '.22 Long Rifle Round',
 			weight = 3,
 		},
 
 		['ammo-38'] = {
-			label = 'Box of .38 Long Colt',
+			label = '.38 Long Colt Round',
 			weight = 10,
 		},
 
 		['ammo-44'] = {
-			label = 'Box of .44 Magnum',
+			label = '.44 Magnum Round',
 			weight = 16,
 		},
 
 		['ammo-45'] = {
-			label = 'Box of .45 ACP',
+			label = '.45 ACP Round',
 			weight = 9,
 		},
 
 		['ammo-50'] = {
-			label = 'Box of .50 AE',
+			label = '.50 AE Round',
 			weight = 19,
 		},
 
 		['ammo-9'] = {
-			label = 'Box of 9mm',
+			label = '9x19mm Round',
 			weight = 8,
 		},
 
@@ -1067,7 +1067,7 @@ return {
 		},
 
 		['ammo-heavysniper'] = {
-			label = 'Box of .50 BMG',
+			label = '.50 BMG Round',
 			weight = 45,
 		},
 
@@ -1077,22 +1077,22 @@ return {
 		},
 
 		['ammo-rifle'] = {
-			label = 'Box of 5.56 NATO',
+			label = '5.56 NATO Round',
 			weight = 4,
 		},
 
 		['ammo-rifle2'] = {
-			label = 'Box of 7.62 Soviet',
+			label = '7.62x39 Soviet Round',
 			weight = 8,
 		},
 
 		['ammo-shotgun'] = {
-			label = 'Box of 12 Gauge',
+			label = '12 Gauge',
 			weight = 38,
 		},
 
 		['ammo-sniper'] = {
-			label = 'Box of 7.62 NATO',
+			label = '7.62x54 NATO Round',
 			weight = 11,
 		},
 

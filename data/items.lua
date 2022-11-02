@@ -26,6 +26,158 @@ return {
 		},
 	},
 
+	---AMMO BOXES
+
+    ["boxammo-rifle"] = {
+        label = "Box of 5.56 NATO",
+        weight = 80,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-rifle', 20)
+                end
+            },
+        }
+    },
+
+	["boxammo-rifle2"] = {
+        label = "Box of 7.62 SOVIET",
+        weight = 160,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-rifle2', 20)
+                end
+            },
+        }
+    },
+
+	["boxammo-9"] = {
+        label = "Box of 9mm",
+        weight = 240,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-9', 30)
+                end
+            },
+        }
+    },
+
+	["boxammo-22"] = {
+        label = "Box of .22 LR",
+        weight = 60,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-22', 20)
+                end
+            },
+        }
+    },
+
+	["boxammo-38"] = {
+        label = "Box of .38 LC",
+        weight = 200,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-38', 20)
+                end
+            },
+        }
+    },
+
+	["boxammo-44"] = {
+        label = "Box of .44 Magnum",
+        weight = 320,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-44', 20)
+                end
+            },
+        }
+    },
+
+	["boxammo-45"] = {
+        label = "Box of .45 ACP",
+        weight = 180,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-45', 20)
+                end
+            },
+        }
+    },
+
+	["boxammo-50"] = {
+        label = "Box of .50 AE",
+        weight = 380,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-50', 20)
+                end
+            },
+        }
+    },
+
+	["boxammo-shotgun"] = {
+        label = "Box of Shotgun Pellets",
+        weight = 380,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-shotgun', 10)
+                end
+            },
+        }
+    },
+
+	["boxammo-heavysniper"] = {
+        label = "Box of .50 BMG",
+        weight = 450,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-heavysniper', 10)
+                end
+            },
+        }
+    },
+
 
 
 

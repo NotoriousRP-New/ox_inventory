@@ -87,11 +87,17 @@ return {
 		blip = {
 			id = 110, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'ammo-9', price = 5, },
-			{ name = 'ammo-22', price = 5, },
-			{ name = 'ammo-38', price = 5, },
-			{ name = 'ammo-45', price = 5, },
-			{ name = 'ammo-shotgun', price = 5, },
+			{ name = 'boxammo-9', price = 140, },
+			{ name = 'boxammo-22', price = 100, },
+			{ name = 'boxammo-38', price = 250, },
+			{ name = 'boxammo-45', price = 150, },
+			{ name = 'boxammo-44', price = 300, },
+			{ name = 'boxammo-50', price = 300, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'boxammo-rifle', price = 400, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'boxammo-rifle2', price = 450, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'boxammo-sniper', price = 700, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'boxammo-heavysniper', price = 900, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'boxammo-shotgun', price = 200, metadata = { registered = true }, license = 'weapon' },
 			{ name = 'WEAPON_KNIFE', price = 200 },
 			{ name = 'WEAPON_BAT', price = 100 },
 			{ name = 'WEAPON_GOLFCLUB', price = 100 },
