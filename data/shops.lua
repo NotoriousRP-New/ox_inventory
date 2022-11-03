@@ -88,7 +88,8 @@ return {
 		blip = {
 			id = 402, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'radio', price = 100 }
+			{ name = 'radio', price = 100 },
+			{ name = 'lockpick', price = 100 }
 		}, locations = {
 			vec3(2748.0, 3473.0, 55.67),
 		}, targets = {
