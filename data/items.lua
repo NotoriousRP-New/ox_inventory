@@ -1,5 +1,19 @@
 return {
 
+	--lockpicks
+
+	['lockpick'] = {
+		label = 'Lockpick',
+		weight = 800,
+		close = true,
+		stack = false,
+		consume = 0.2, -- will remove 0.12 durability from 2 so breaks after 5 uses
+		client = {
+			export = "qb-vehiclekeys.lockpick"
+		}
+
+	},
+
 	--CURRENCY
 
 	['money'] = {
