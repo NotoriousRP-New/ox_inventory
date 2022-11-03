@@ -247,7 +247,7 @@ return {
 		label = 'Fanta',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = 'fanta',
 			usetime = 2500,
@@ -258,7 +258,7 @@ return {
 		label = '7up',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = '7up',
 			usetime = 2500,
@@ -269,7 +269,7 @@ return {
 		label = 'Coca Cola',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = 'cocacola',
 			usetime = 2500,
@@ -280,7 +280,7 @@ return {
 		label = 'Coke Zero',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = 'colazero',
 			usetime = 2500,
@@ -291,7 +291,7 @@ return {
 		label = 'Dr Pepper',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = 'drpepper',
 			usetime = 2500,
@@ -302,7 +302,7 @@ return {
 		label = 'Lipton Ice Tea',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = 'lipton',
 			usetime = 2500,
@@ -313,7 +313,7 @@ return {
 		label = 'Mountain Dew',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = 'mtndew',
 			usetime = 2500,
@@ -324,7 +324,7 @@ return {
 		label = 'Pepsi',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = 'pepsi',
 			usetime = 2500,
@@ -335,7 +335,7 @@ return {
 		label = 'Pepsi Max',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = 'pepsimax',
 			usetime = 2500,
@@ -346,7 +346,7 @@ return {
 		label = 'Sprite',
 		weight = 500,
 		client = {
-			status = { thirst = math.random(20, 40), stressRelief = math.random(1,3) },
+			status = { thirst = math.random(20, 40) },
 			anim = 'drinking',
 			prop = 'sprite',
 			usetime = 2500,
@@ -354,4 +354,104 @@ return {
 		}
 	},
 
+	--basic food
+	['apple'] = {
+		label = 'Apple',
+		weight = 500,
+		client = {
+			status = { hunger = math.random(20, 40) },
+			anim = 'eating',
+			prop = 'apple',
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+	['burger'] = {
+		label = 'Burger',
+		weight = 500,
+		client = {
+			status = { hunger = math.random(20, 40) },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+	['croissant'] = {
+		label = 'Croissant',
+		weight = 500,
+		client = {
+			status = { hunger = math.random(20, 40) },
+			anim = 'eating',
+			prop = 'croissant',
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+	['donut'] = {
+		label = 'Donut',
+		weight = 500,
+		client = {
+			status = { hunger = math.random(20, 40) },
+			anim = 'eating',
+			prop = 'donut',
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+	['donutchoc'] = {
+		label = 'Chocolate Donut',
+		weight = 500,
+		client = {
+			status = { hunger = math.random(20, 40) },
+			anim = 'eating',
+			prop = 'donutchoc',
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+	['donutrasp'] = {
+		label = 'Raspberry Donut',
+		weight = 500,
+		client = {
+			status = { hunger = math.random(20, 40) },
+			anim = 'eating',
+			prop = 'donutrasp',
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+	['hotdog'] = {
+		label = 'Hotdog',
+		weight = 500,
+		client = {
+			status = { hunger = math.random(20, 40) },
+			anim = 'eating',
+			prop = 'hotdog',
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+	['sandwich'] = {
+		label = 'Sandwich',
+		weight = 500,
+		client = {
+			status = { hunger = math.random(20, 40) },
+			anim = 'eating',
+			prop = 'sandwich',
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+	['taco'] = {
+		label = 'Taco',
+		weight = 500,
+		client = {
+			status = { hunger = math.random(20, 40) },
+			anim = 'eating',
+			prop = 'taco',
+			usetime = 2500,
+			cancel = true,
+		}
+	},
 }
