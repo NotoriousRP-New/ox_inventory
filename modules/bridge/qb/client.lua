@@ -1,4 +1,18 @@
 local onLogout, Weapon = ...
+local QBCore = exports['qb-core']:GetCoreObject()
+
+function client.setPlayerStatus(values)
+
+	for name, value in pairs(values) do
+		if name == "thirst" then
+			TriggerServerEvent("consumables:server:addThirst", QBCore.Functions.GetPlayerData().metadata["thirst"] + value)
+		elseif name == "hunger" then
+			TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + value)
+		elseif name == "stressRelief" then
+			TriggerServerEvent('hud:server:RelieveStress', value)
+		end
+	end
+end
 
 RegisterNetEvent('QBCore:Client:OnPlayerUnload', onLogout)
 

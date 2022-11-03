@@ -14,9 +14,17 @@ return {
 		blip = {
 			id = 59, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'burger', price = 10 },
 			{ name = 'water', price = 10 },
-			{ name = 'cola', price = 10 },
+			{ name = 'fanta', price = 10 },
+			{ name = '7up', price = 10 },
+			{ name = 'cocacola', price = 10 },
+			{ name = 'colazero', price = 10 },
+			{ name = 'drpepper', price = 10 },
+			{ name = 'lipton', price = 10 },
+			{ name = 'mtndew', price = 10 },
+			{ name = 'pepsi', price = 10 },
+			{ name = 'pepsimax', price = 10 },
+			{ name = 'sprite', price = 10 },
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
 			vec3(-3038.71, 585.9, 7.9),
@@ -48,8 +56,6 @@ return {
 			id = 93, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'water', price = 10 },
-			{ name = 'cola', price = 10 },
-			{ name = 'burger', price = 15 },
 		}, locations = {
 			vec3(1135.808, -982.281, 46.415),
 			vec3(-1222.915, -906.983, 12.326),
@@ -73,11 +79,9 @@ return {
 		blip = {
 			id = 402, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'lockpick', price = 10 },
 			{ name = 'radio', price = 100 }
 		}, locations = {
 			vec3(2748.0, 3473.0, 55.67),
-			vec3(342.99, -1298.26, 32.51)
 		}, targets = {
 			{ loc = vec3(2746.8, 3473.13, 55.67), length = 0.6, width = 3.0, heading = 65.0, minZ = 55.0, maxZ = 56.8, distance = 3.0 }
 		}
@@ -172,10 +176,39 @@ return {
 		name = 'Vending Machine',
 		inventory = {
 			{ name = 'water', price = 10 },
-			{ name = 'cola', price = 10 },
+			{ name = 'fanta', price = 10 },
+			{ name = '7up', price = 10 },
+			{ name = 'cocacola', price = 10 },
+			{ name = 'colazero', price = 10 },
+			{ name = 'drpepper', price = 10 },
+			{ name = 'lipton', price = 10 },
+			{ name = 'mtndew', price = 10 },
+			{ name = 'pepsi', price = 10 },
+			{ name = 'pepsimax', price = 10 },
+			{ name = 'sprite', price = 10 },
 		},
 		model = {
-			`prop_vend_soda_02`, `prop_vend_fridge01`, `prop_vend_water_01`, `prop_vend_soda_01`
+			`prop_vend_soda_02`, `prop_vend_fridge01`, `prop_vend_soda_01`
 		}
-	}
+	},
+
+	CoffeeMachineDrinks = {
+		name = 'Coffee Machine',
+		inventory = {
+			{ name = 'coffee', price = 10 },
+		},
+		model = {
+			`prop_vend_coffe_01`, `prop_coffe_mac_02`,
+		}
+	},
+
+	WaterCoolerDrinks = {
+		name = 'Water Cooler',
+		inventory = {
+			{ name = 'water', price = 10 },
+		},
+		model = {
+			`prop_watercooler`, `prop_vend_water_01`
+		}
+	},
 }
