@@ -16,7 +16,7 @@ return {
 		},
 
 		['WEAPON_ASSAULTRIFLE'] = {
-			label = 'Assault Rifle',
+			label = 'AK-47',
 			weight = 3470,
 			durability = 0.03,
 			ammoname = 'ammo-rifle2',
@@ -95,7 +95,7 @@ return {
 		},
 
 		['WEAPON_CARBINERIFLE'] = {
-			label = 'Carbine Rifle',
+			label = 'NSR9 AR-15',
 			weight = 3100,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
@@ -109,7 +109,7 @@ return {
 		},
 
 		['WEAPON_CERAMICPISTOL'] = {
-			label = 'Ceramic Pistol',
+			label = 'Glock 17 (Gucci)',
 			weight = 700,
 			durability = 0.2,
 			ammoname = 'ammo-9'
@@ -137,7 +137,7 @@ return {
 		},
 
 		['WEAPON_COMBATPISTOL'] = {
-			label = 'Combat Pistol',
+			label = 'Glock 17',
 			weight = 970,
 			durability = 0.2,
 			ammoname = 'ammo-9'
@@ -420,7 +420,7 @@ return {
 		},
 
 		['WEAPON_PISTOL'] = {
-			label = 'Pistol',
+			label = 'P99 Walther',
 			weight = 970,
 			durability = 0.1,
 			ammoname = 'ammo-9',
@@ -434,7 +434,7 @@ return {
 		},
 
 		['WEAPON_PISTOL_MK2'] = {
-			label = 'Pistol MK2',
+			label = 'SigSauer P226',
 			weight = 970,
 			durability = 0.5,
 			ammoname = 'ammo-9'
@@ -535,7 +535,7 @@ return {
 		},
 
 		['WEAPON_SPECIALCARBINE'] = {
-			label = 'Special Carbine',
+			label = 'C8 Colt AR-15',
 			weight = 3000,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'

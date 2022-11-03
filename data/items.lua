@@ -30,7 +30,7 @@ return {
 
     ["boxammo-rifle"] = {
         label = "Box of 5.56 NATO",
-        weight = 80,
+        weight = 60,
         stack = true,
         close = false,
         buttons = {
@@ -45,7 +45,7 @@ return {
 
 	["boxammo-rifle2"] = {
         label = "Box of 7.62 SOVIET",
-        weight = 160,
+        weight = 120,
         stack = true,
         close = false,
         buttons = {
@@ -60,7 +60,7 @@ return {
 
 	["boxammo-9"] = {
         label = "Box of 9mm",
-        weight = 240,
+        weight = 200,
         stack = true,
         close = false,
         buttons = {
@@ -75,7 +75,7 @@ return {
 
 	["boxammo-22"] = {
         label = "Box of .22 LR",
-        weight = 60,
+        weight = 40,
         stack = true,
         close = false,
         buttons = {
@@ -90,7 +90,7 @@ return {
 
 	["boxammo-38"] = {
         label = "Box of .38 LC",
-        weight = 200,
+        weight = 160,
         stack = true,
         close = false,
         buttons = {
@@ -105,7 +105,7 @@ return {
 
 	["boxammo-44"] = {
         label = "Box of .44 Magnum",
-        weight = 320,
+        weight = 280,
         stack = true,
         close = false,
         buttons = {
@@ -120,7 +120,7 @@ return {
 
 	["boxammo-45"] = {
         label = "Box of .45 ACP",
-        weight = 180,
+        weight = 120,
         stack = true,
         close = false,
         buttons = {
@@ -135,7 +135,7 @@ return {
 
 	["boxammo-50"] = {
         label = "Box of .50 AE",
-        weight = 380,
+        weight = 300,
         stack = true,
         close = false,
         buttons = {
@@ -150,7 +150,7 @@ return {
 
 	["boxammo-shotgun"] = {
         label = "Box of Shotgun Pellets",
-        weight = 380,
+        weight = 300,
         stack = true,
         close = false,
         buttons = {
@@ -165,7 +165,7 @@ return {
 
 	["boxammo-heavysniper"] = {
         label = "Box of .50 BMG",
-        weight = 450,
+        weight = 320,
         stack = true,
         close = false,
         buttons = {
@@ -173,6 +173,21 @@ return {
                 label = 'Unpack Ammo',
                 action = function(slot)
                     TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-heavysniper', 10)
+                end
+            },
+        }
+    },
+
+	["boxammo-sniper"] = {
+        label = "Box of 7.62 NATO",
+        weight = 320,
+        stack = true,
+        close = false,
+        buttons = {
+            {
+                label = 'Unpack Ammo',
+                action = function(slot)
+                    TriggerServerEvent('ammoboxes:server:use', slot, 'ammo-sniper', 10)
                 end
             },
         }

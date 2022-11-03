@@ -104,7 +104,10 @@ return {
 			{ name = 'WEAPON_GOLFCLUB', price = 100 },
 			{ name = 'WEAPON_HAMMER', price = 100 },
 			{ name = 'WEAPON_WRENCH', price = 100 },
-			{ name = 'WEAPON_PISTOL', price = 1000, metadata = { registered = true }, license = 'weapon' }
+			{ name = 'WEAPON_PISTOL', price = 1000, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'WEAPON_PISTOL_MK2', price = 1000, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'WEAPON_COMBATPISTOL', price = 1200, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'WEAPON_CERAMICPISTOL', price = 2500, metadata = { registered = true }, license = 'weapon' }
 		}, locations = {
 			vec3(-662.180, -934.961, 21.829),
 			vec3(810.25, -2157.60, 29.62),
